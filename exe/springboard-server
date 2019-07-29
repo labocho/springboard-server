@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "springboard/server"
+
+Springboard::Server::CLI.start(ARGV)

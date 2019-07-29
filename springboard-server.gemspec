@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["labocho"]
   spec.email         = ["labocho@penguinlab.jp"]
 
-  spec.summary       = "The VPN routing server"
-  spec.description   = "The VPN routing server"
+  spec.summary       = "VPN routing server manager"
+  spec.description   = "VPN routing server manager"
   spec.homepage      = "https://github.com/labocho/springboard-server"
   spec.license       = "MIT"
 

@@ -2,7 +2,8 @@ require "springboard/server/version"
 
 module Springboard
   module Server
+    require_relative "server/cli"
+
     class Error < StandardError; end
-    # Your code goes here...
   end
 end

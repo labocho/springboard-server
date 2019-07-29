@@ -1,28 +1,25 @@
 # Springboard::Server
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/springboard/server`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+VPN routing server manager. This creates springboard server with vagrant.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+    $ git clone https://github.com/labocho/springboard-server.git
+    $ cd springboard-server
+    $ rake install
 
-```ruby
-gem 'springboard-server'
-```
+## Requirements
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install springboard-server
+- Ruby
+- Vagrant
 
 ## Usage
 
-TODO: Write usage instructions here
+    # accept all vagrant command (eg. up, halt, destroy...)
+    $ springboard-server up
+
+Springboard server listens `192.168.33.100` by default.
+Stop server, export `SPRING_BOARD_SERVER_ADDRESS`, start server to change address.
 
 ## Development
 
